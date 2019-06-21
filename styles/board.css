@@ -2,9 +2,9 @@
   overflow: hidden;
 }
 .card .card-img-top {
-  height: 360px;
-
-  object-fit: contain;
+  height: 400px;
+  /*object-fit: cover;*/
+  object-fit: cover;
   transition: transform 1.5s, filter .5s ease-out;
 }
 
@@ -21,15 +21,16 @@
 body > main > section {
     background-image: url("../images/board-cover.jpg");
     background-size: cover;
-    background-position: bottom center;
+    background-position: center center;
     height: 100%;
-}
-
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .border-2 {
     border-width:2px !important;
+}
+
+.card-img-board {
+  height: 300px !important;
+  object-fit: cover;
+  width:100%
 }
