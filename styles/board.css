@@ -1,5 +1,3 @@
-
-
 .just-pic {
   overflow: hidden;
 }
@@ -7,7 +5,6 @@
   height: 360px;
 
   object-fit: contain;
-  /*overflow: hidden;*/
   transition: transform 1.5s, filter .5s ease-out;
 }
 
@@ -15,6 +12,10 @@
   transform: scale(1.5);
 }
 
+.card .card-img-cover {
+  height: 200px;
+  object-fit: cover;
+}
 
 
 body > main > section {
@@ -22,4 +23,13 @@ body > main > section {
     background-size: cover;
     background-position: bottom center;
     height: 100%;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.border-2 {
+    border-width:2px !important;
 }
