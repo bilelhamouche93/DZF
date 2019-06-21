@@ -2,7 +2,7 @@
   overflow: hidden;
 }
 .card .card-img-top {
-  height: 400px;
+  height: 460px;
   /*object-fit: cover;*/
   object-fit: cover;
   transition: transform 1.5s, filter .5s ease-out;
