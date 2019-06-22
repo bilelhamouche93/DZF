@@ -2,8 +2,9 @@
   overflow: hidden;
 }
 .card .card-img-top {
-  height: 460px;
-  /*object-fit: cover;*/
+  /*height: 460px;*/
+  height: 65vh;
+
   object-fit: cover;
   transition: transform 1.5s, filter .5s ease-out;
 }
@@ -13,7 +14,8 @@
 }
 
 .card .card-img-cover {
-  height: 200px;
+  /*height: 200px;*/
+  height: 20vh;
   object-fit: cover;
 }
 
